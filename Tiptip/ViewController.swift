@@ -45,6 +45,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        //clearButton.setImage(UIImage(named: "clear.png"), forState: UIControlState.Normal)
         billField.text = "$"
         taxLabel.text = "$0.00"
         tipLabel.text = "$0.00"

@@ -33,11 +33,10 @@
                                         <color key="textColor" red="1" green="1" blue="1" alpha="0.29730603448275861" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hHX-3C-g0a">
-                                        <rect key="frame" x="256" y="80" width="46" height="30"/>
+                                    <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="hHX-3C-g0a">
+                                        <rect key="frame" x="259" y="80" width="24" height="23.5"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
-                                        <state key="normal" title="C">
+                                        <state key="normal" image="clear.png">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
@@ -142,4 +141,7 @@
             <point key="canvasLocation" x="162" y="393"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="clear.png" width="16" height="16"/>
+    </resources>
 </document>
